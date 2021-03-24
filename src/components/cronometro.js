@@ -4,7 +4,7 @@ export class Cronometro extends Component {
   constructor (){
     super();
     this.state={
-      contador:0,
+      contador: 0,
       estado:"Iniciar"
     }
     this.handleContadorplus= this.handleContadorplus.bind(this);
